@@ -1,0 +1,18 @@
+.main {
+  section + section {
+    margin: 7rem 0;
+  }
+}
+.introduction {
+  .intro-sections {
+    @include grid();
+  }
+  @include mobile {
+    text-align: center;
+
+    .image-bg {
+      width: 16rem;
+      margin: 1rem auto;
+    }
+  }
+}

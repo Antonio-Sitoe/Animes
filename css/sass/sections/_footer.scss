@@ -1,0 +1,16 @@
+.footer {
+  background: #252525;
+  color: whitesmoke;
+  width: 100%;
+
+  height: 12rem;
+  @include flexBox();
+
+  div {
+   font-weight: 600;
+   text-align: center;
+   display: grid;
+   grid-gap: 10px;
+   margin: 0 10px;
+  }
+}

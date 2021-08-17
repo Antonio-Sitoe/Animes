@@ -1,0 +1,27 @@
+.content {
+  .gridItens {
+    @include grid-2();
+
+    .Content-image {
+      max-width: 600px;
+      border-radius: 1rem;
+
+      @include tablet {
+        margin: 1rem auto;
+        order: 0;
+      }
+    }
+
+    .content-content {
+      text-align: center;
+      max-width: 300px;
+      h3 {
+        line-height: 2;
+      }
+      @include tablet {
+        margin: 0.6rem auto;
+        order: 1;
+      }
+    }
+  }
+}

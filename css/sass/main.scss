@@ -1,0 +1,19 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0.6rem;
+}
+
+
+
+@import './base/normalize';
+@import './base/typograph';
+@import './base/buttons';
+@import './components/flex';
+@import './components/grid';
+@import './components/media';
+@import './sections/intro';
+@import './sections/header';
+@import './sections/content';
+@import './sections/video';
+@import './sections/footer';

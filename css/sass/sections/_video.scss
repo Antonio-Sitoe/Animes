@@ -1,0 +1,55 @@
+.video {
+ background: whitesmoke;
+ padding: 3rem 0;
+ text-align: center;
+ .intro-video {
+   max-width: 600px;
+   margin: 0 auto;
+ }
+ .video-btn {
+   width: 6rem;
+   padding: 1.3rem 1.6rem;
+   border: 0.4rem solid #e6a418;
+   border-radius: 0.6rem;
+   margin: 1rem auto;
+
+   @include flexBox();
+
+
+
+   &:hover {
+     border-color: rgb(211, 208, 208);
+   }
+ }
+
+
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+
+  display: none;
+  align-items: center;
+  justify-content: center;
+
+  backdrop-filter: blur(4px);
+
+  iframe{
+    max-width: 600px;
+    width: 100%;
+    height: 400px;
+
+    @include mobile {
+      width: 300px;
+      height: 300px;
+      margin: 10px;
+    }
+  }
+  &.ative {
+    display: flex;
+  }
+}
