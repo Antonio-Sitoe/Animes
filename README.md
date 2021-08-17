@@ -72,5 +72,8 @@ Para os ícones, vai encontrar os links na pasta ./img.
 <h1 id="Compartilhe">Compartilhe</h1>
 <p>Inicie seu projeto utilizando esse template no seu github como um repositório público Faça um print, gif ou vídeo e
  compartilhe o resultado no seu Linkedin</p>
+ 
+ 
+ <a href="https://antonio-sitoe.github.io/Animes/">anime</a>
 
 <h3><a href="https://www.linkedin.com/in/antonio-sitoe-521b64205/">Antonio Sitoe</a></h3>
